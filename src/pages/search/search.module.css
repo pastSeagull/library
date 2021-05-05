@@ -1,0 +1,20 @@
+.sear {
+    margin-top: 50px;
+    background: rgba(214, 214, 214, 0.5);
+  }
+  
+  .midd {
+    padding: 100px 0 100px 0;
+  }
+  
+  .searInput {
+    width: 100%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+  }
+  
+  .seekBox {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
