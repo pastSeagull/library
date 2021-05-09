@@ -1,13 +1,13 @@
 import React from 'react'
 import { Row, Col, Descriptions } from 'antd'
 import styles from './components.module.css'
-import images from '../../img/s1103152.jpg'
+// import images from '../../img/s1103152.jpg'
 
 const Contents = (props) => {
   return (
     <Row className={styles.row}>
       <Col className={styles.bos} span={5}>
-        <img className={styles.img} src={images} alt='' />
+        {/* <img className={styles.img} src={images} alt='' /> */}
       </Col>
       <Col className={styles.describe} span={18}>
         <Descriptions title={props.date.book_name}>

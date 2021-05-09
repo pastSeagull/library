@@ -10,6 +10,8 @@ const routes = [
   {
     path: '/personal',
     component: Personal,
+    role: 'user',
+    backUrl: '/',
   },
   {
     path: '/',

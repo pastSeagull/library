@@ -18,10 +18,10 @@ const Searchs = () => {
   return (
     <Row justify='center' align='top'>
       {/* <img src={images} alt='' /> */}
-      <Col span={15}>
+      <Col span={21}>
         <div className={styles.sear}>
           <Row justify='center' align='top'>
-            <Col className={styles.midd} span={20}>
+            <Col className={styles.midd} span={13}>
               <Search
                 size='large'
                 className={styles.searInput}

@@ -4,18 +4,17 @@ import Searchs from './pages/search'
 import Notice from './pages/notice'
 import Service from './pages/service'
 
-
-const App =() => {
+const App = () => {
   return (
     <div>
       <div className={styleMedia.wpcontainer}>
         <Searchs />
-        <Service />
+        {/* <Service /> */}
         <Notice />
         <NewBook />
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
